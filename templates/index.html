@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Zentour Rent Car</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-text">
+            <h1>Zentour Rent Car</h1>
+            <p>Mobil Bersih • Nyaman • Driver Ramah</p>
+            <a href="https://wa.me/08563347336" class="btn">Booking Sekarang</a>
+        </div>
+    </header>
+
+    <section class="section about">
+        <h2>Tentang Kami</h2>
+        <p>Zentour hadir untuk kamu yang butuh rental mobil yang bersih, nyaman, dan driver yang ramah. Cocok buat city tour, keperluan kantor, liburan, atau antar-jemput bandara!</p>
+    </section>
+
+    <section class="section armada">
+        <h2>Armada Unggulan</h2>
+        <div class="car-grid">
+            <div class="car-card">
+			<img src="{{ url_for('static', filename='images/pajero.jpg') }}" alt="Pajero Tipe Baru">
+                <h3>Pajero Tipe Baru</h3>
+                <p>Rp900.000 / hari</p>
+            </div>
+			<div class="car-card">
+			<img src="{{ url_for('static', filename='images/fortuner.jpg') }}" alt="Fortuner Tipe Baru">
+                <h3>Fortuner Tipe Baru</h3>
+                <p>Rp900.000 / hari</p>
+            </div>
+			<div class="car-card">
+			<img src="{{ url_for('static', filename='images/fortunerlama.jpg') }}" alt="Fortuner Tipe Lama">
+                <h3>Fortuner Tipe Lama</h3>
+                <p>Rp700.000 / hari</p>
+            </div>
+            <div class="car-card">
+			<img src="{{ url_for('static', filename='images/xpander.jpg') }}" alt="Xpander">
+                <h3>Xpander</h3>
+                <p>Rp300.000 / hari</p>
+            </div>
+			<div class="car-card">
+			<img src="{{ url_for('static', filename='images/raize.jpg') }}" alt="Raize">
+                <h3>Raize</h3>
+                <p>Rp250.000 / hari</p>
+            </div>
+			<div class="car-card">
+			<img src="{{ url_for('static', filename='images/ignis.jpg') }}" alt="Ignis">
+                <h3>Ignis</h3>
+                <p>Rp200.000 / hari</p>
+            </div>
+            <div class="car-card">
+			<img src="{{ url_for('static', filename='images/ayla.jpg') }}" alt="Ayla">
+                <h3>Ayla</h3>
+                <p>Rp200.000 / hari</p>
+            </div>
+			<div class="car-card">
+			<img src="{{ url_for('static', filename='images/hiace.jpg') }}" alt="Hiace">
+                <h3>Hiace</h3>
+                <p>Rp750.000 / hari</p>
+            </div>
+			<div class="car-card">
+			<img src="{{ url_for('static', filename='images/hiacepremio.jpg') }}" alt="Hiace Premio">
+                <h3>Hiace Premio</h3>
+                <p>Rp850.000 / hari</p>
+            </div>
+			<div class="car-card">
+			<img src="{{ url_for('static', filename='images/elflong.jpg') }}" alt="Elf Long">
+                <h3>Elf Long</h3>
+                <p>Rp750.000 / hari</p>
+            </div>
+			<div class="car-card">
+			<img src="{{ url_for('static', filename='images/elfshort.jpg') }}" alt="Elf Short">
+                <h3>Elf Short</h3>
+                <p>Rp600.000 / hari</p>
+            </div>
+        </div>
+    </section>
+	
+<section class="section location">
+    <h2>Lokasi Kantor</h2>
+    
+    <div class="locations">
+        <div class="location-box">
+            <h3>Kantor 1 - Krian</h3>
+            <p>Perum Mandiri Residence Orchid B10 No 17<br>Kec. Krian, Kab. Sidoarjo</p>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6239.466617939542!2d112.59183430899273!3d-7.421157636263823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e780993c129056b%3A0xe08aa5cd6654c1d4!2sMandiri%20Residence%20Krian!5e0!3m2!1sen!2sid!4v1745285635312!5m2!1sen!2sid" 
+                    width="100%" 
+                    height="300" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+
+        <div class="location-box">
+            <h3>Kantor 2 - Taman</h3>
+            <p>Perum Citra Harmony New York 2 No. 07<br>Kec. Taman, Kab. Sidoarjo</p>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.7826038703397!2d112.6388914!3d-7.3782447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e293e5a0ad3f%3A0x2409e93b2afdffe2!2sCluster%20New%20York%20Citra%20Harmony!5e0!3m2!1sen!2sid!4v1745286315778!5m2!1sen!2sid" 
+                    width="100%" 
+                    height="300" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2025 Zentour Rent Car</p>
+    </footer>
+
+    <a class="wa-btn" href="https://wa.me/08563347336" target="_blank">💬 Chat WhatsApp</a>
+</body>
+</html>

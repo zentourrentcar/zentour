@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Zentour Rent Car</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-text">
+            <h1>Zentour Rent Car</h1>
+            <p>Mobil Bersih • Nyaman • Driver Ramah</p>
+            <a href="https://wa.me/08563347336" class="btn">Booking Sekarang</a>
+        </div>
+    </header>
+
+    <section class="section about">
+        <h2>Tentang Kami</h2>
+        <p>Zentour hadir untuk kamu yang butuh rental mobil yang bersih, nyaman, dan driver yang ramah. Cocok buat city tour, keperluan kantor, liburan, atau antar-jemput bandara!</p>
+    </section>
+
+    <section class="section armada">
+        <h2>Armada Unggulan</h2>
+        <div class="car-grid">
+            <div class="car-card">
+			<img src="{{ url_for('static', filename='images/pajero.jpg') }}" alt="Pajero Tipe Baru">
+                <h3>Pajero Tipe Baru</h3>
+                <p>Rp900.000 / hari</p>
+            </div>
+			<div class="car-card">
+			<img src="{{ url_for('static', filename='images/fortuner.jpg') }}" alt="Fortuner Tipe Baru">
+                <h3>Fortuner Tipe Baru</h3>
+                <p>Rp900.000 / hari</p>
+            </div>
+			<div class="car-card">
+			<img src="{{ url_for('static', filename='images/fortunerlama.jpg') }}" alt="Fortuner Tipe Lama">
+                <h3>Fortuner Tipe Lama</h3>
+                <p>Rp700.000 / hari</p>
+            </div>
+            <div class="car-card">
+			<img src="{{ url_for('static', filename='images/xpander.jpg') }}" alt="Xpander">
+                <h3>Xpander</h3>
+                <p>Rp300.000 / hari</p>
+            </div>
+			<div class="car-card">
+			<img src="{{ url_for('static', filename='images/raize.jpg') }}" alt="Raize">
+                <h3>Raize</h3>
+                <p>Rp250.000 / hari</p>
+            </div>
+			<div class="car-card">
+			<img src="{{ url_for('static', filename='images/ignis.jpg') }}" alt="Ignis">
+                <h3>Ignis</h3>
+                <p>Rp200.000 / hari</p>
+            </div>
+            <div class="car-card">
+			<img src="{{ url_for('static', filename='images/ayla.jpg') }}" alt="Ayla">
+                <h3>Ayla</h3>
+                <p>Rp200.000 / hari</p>
+            </div>
+			<div class="car-card">
+			<img src="{{ url_for('static', filename='images/hiace.jpg') }}" alt="Hiace">
+                <h3>Hiace</h3>
+                <p>Rp750.000 / hari</p>
+            </div>
+			<div class="car-card">
+			<img src="{{ url_for('static', filename='images/hiacepremio.jpg') }}" alt="Hiace Premio">
+                <h3>Hiace Premio</h3>
+                <p>Rp850.000 / hari</p>
+            </div>
+			<div class="car-card">
+			<img src="{{ url_for('static', filename='images/elflong.jpg') }}" alt="Elf Long">
+                <h3>Elf Long</h3>
+                <p>Rp750.000 / hari</p>
+            </div>
+			<div class="car-card">
+			<img src="{{ url_for('static', filename='images/elfshort.jpg') }}" alt="Elf Short">
+                <h3>Elf Short</h3>
+                <p>Rp600.000 / hari</p>
+            </div>
+        </div>
+    </section>
+	
+<section class="section location">
+    <h2>Lokasi</h2>
+    <div class="locations">
+        <div class="location-box">
+            <h3>Kantor 1</h3>
+            <p>Perum Mandiri Residence Orchid B10 No 17<br>Kec. Krian, Kab. Sidoarjo</p>
+        </div>
+        <div class="location-box">
+            <h3>Kantor 2</h3>
+            <p>Perum Citra Harmony New York 2 No. 07<br>Kec. Taman, Kab. Sidoarjo</p>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2025 Zentour Rent Car</p>
+    </footer>
+
+    <a class="wa-btn" href="https://wa.me/08563347336" target="_blank">💬 Chat WhatsApp</a>
+</body>
+</html>
